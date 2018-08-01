@@ -1,23 +1,23 @@
-Dashcore P2P
+Bitcore P2P-Saga
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/@dashevo/dashcore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/@dashevo/dashcore-p2p)
-[![Build Status](https://img.shields.io/travis/dashevo/dashcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/dashevo/dashcore-p2p)
-[![Coverage Status](https://img.shields.io/coveralls/dashevo/dashcore-p2p.svg?style=flat-square)](https://coveralls.io/r/dashevo/dashcore-p2p?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/@sagacrypto/bitcore-p2p-saga.svg?style=flat-square)](https://www.npmjs.org/package/@sagacrypto/bitcore-p2p-saga)
+[![Build Status](https://img.shields.io/travis/sagacrypto/bitcore-p2p-saga.svg?branch=master&style=flat-square)](https://travis-ci.org/sagacrypto/bitcore-p2p-saga)
+[![Coverage Status](https://img.shields.io/coveralls/sagacrypto/bitcore-p2p-saga.svg?style=flat-square)](https://coveralls.io/r/sagacrypto/bitcore-p2p-saga?branch=master)
 
-`dashcore-p2p` adds Dash protocol support for Dashcore.
+`bitcore-p2p-saga` adds SagaCoin protocol support for Bitcore-Saga.
 
-See [the main dashcore repo](https://github.com/dashevo/dashcore) for more information.
+See [the main bitcore-saga repo](https://github.com/sagacrypto/bitcore-saga) for more information.
 
 ## Getting Started
 
 ```sh
-npm install @dashevo/dashcore-p2p
+npm install @sagacrypto/bitcore-p2p-saga
 ```
-In order to connect to the Dash network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
+In order to connect to the SagaCoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('@dashevo/dashcore-p2p').Peer;
+var Peer = require('@sagacrypto/bitcore-p2p-saga').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 
@@ -47,10 +47,11 @@ Take a look at the [bitcore guide](http://bitcore.io/guide/peer.html) on the usa
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/dashevo/dashcore/blob/master/CONTRIBUTING.md) on the main dashcore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/sagacrypto/bitcore-saga/blob/master/CONTRIBUTING.md) on the main bitcore-saga repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/dachevo/dashcore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/sagacrypto/bitcore-p2p-saga/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
+Copyright 2018 SagaCoin Development Team.
